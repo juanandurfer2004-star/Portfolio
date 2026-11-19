@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <meta name="description" content="Portfolio personal" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a href="#inicio" class="logo"><span class="logo-mark" data-iniciales></span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="links" id="links">
+      <a href="#sobre-mi"><span>01.</span> Sobre mí</a>
+      <a href="#habilidades"><span>02.</span> Habilidades</a>
+      <a href="#proyectos"><span>03.</span> Proyectos</a>
+      <a href="#experiencia"><span>04.</span> Experiencia</a>
+      <a href="#contacto" class="btn btn-small">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- PORTADA -->
+    <section class="hero" id="inicio">
+      <p class="badge" id="badge"><span class="dot"></span> Disponible para proyectos</p>
+      <p class="mono hello">Hola, me llamo</p>
+      <h1 data-nombre></h1>
+      <h2 class="typed"><span id="typed"></span><span class="caret">|</span></h2>
+      <p class="intro" id="intro"></p>
+      <div class="cta">
+        <a href="#proyectos" class="btn">Ver proyectos</a>
+        <a href="#contacto" class="btn btn-ghost">Hablemos</a>
+      </div>
+      <div class="socials" id="socialsHero"></div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="reveal">
+      <h3 class="section-title"><span>01.</span> Sobre mí</h3>
+      <div class="about">
+        <div class="about-text" id="sobreMi"></div>
+        <div class="about-side">
+          <div class="avatar"><span data-iniciales></span></div>
+          <div class="stats" id="stats"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="reveal">
+      <h3 class="section-title"><span>02.</span> Habilidades</h3>
+      <div class="skills" id="skills"></div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="reveal">
+      <h3 class="section-title"><span>03.</span> Proyectos</h3>
+      <div class="projects" id="projects"></div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia" class="reveal">
+      <h3 class="section-title"><span>04.</span> Experiencia y formación</h3>
+      <ol class="timeline" id="timeline"></ol>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="reveal contact">
+      <p class="mono accent">05. ¿Y ahora qué?</p>
+      <h3 class="contact-title">Hablemos</h3>
+      <p>Si tienes un proyecto, una oferta o simplemente quieres saludar, mi bandeja de entrada está abierta.</p>
+      <div class="cta center">
+        <a class="btn" id="mailBtn">Enviar un email</a>
+        <a class="btn btn-ghost" id="cvBtn" download>Descargar CV</a>
+      </div>
+      <div class="socials center" id="socialsFooter"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Diseñado y construido por <span data-nombre></span> · <span id="year"></span></p>
+  </footer>
+
+  <script src="datos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
