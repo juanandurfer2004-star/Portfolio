@@ -28,6 +28,6 @@ Para cambiar los colores, edita `--accent` y `--accent-2` al principio de `style
    ```
 
 4. En el repositorio: *Settings → Pages → Source: Deploy from a branch → main / (root)* → *Save*.
-5. En un par de minutos estará en **https://TU-USUARIO.github.io** 🎉
+5. En un par de minutos estará en **https://juanandurfer2004-star.github.io/Portfolio/** 🎉
 
 Cada vez que cambies algo y lo subas, la web se actualiza sola.

@@ -46,8 +46,8 @@ const DATOS = {
       titulo: "Portfolio personal",
       descripcion: "Esta misma web: estática, rápida y adaptada a móvil, sin librerías y publicada en GitHub Pages.",
       tecnologias: ["HTML", "CSS", "JavaScript"],
-      demo: "https://juanandurfer2004-star.github.io",
-      codigo: "https://github.com/juanandurfer2004-star/juanandurfer2004-star.github.io",
+      demo: "https://juanandurfer2004-star.github.io/Portfolio/",
+      codigo: "https://github.com/juanandurfer2004-star/Portfolio",
     },
   ],
 
